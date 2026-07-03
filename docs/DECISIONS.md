@@ -20,3 +20,24 @@ O domínio de agendamento permite estudar problemas reais de produto e engenhari
 ### Justificativa
 
 A escolha por uma plataforma genérica de agendamento permite maior flexibilidade de modelagem e demonstra melhor capacidade de pensar em soluções extensíveis.
+
+## 2026-07-03 - Definição da arquitetura inicial
+
+### Decisão
+
+Utilizar um monólito modular com Clean Architecture simplificada.
+
+### Motivo
+
+O projeto tem como objetivo servir como projeto vitrine e ambiente de aprendizado em Engenharia de Software. Uma arquitetura em camadas permite estudar separação de responsabilidades, regras de negócio, testes, persistência e APIs REST sem adicionar complexidade desnecessária no início.
+
+### Alternativas consideradas
+
+- Arquitetura simples com apenas uma API
+- Microservices
+- Arquitetura baseada em camadas tradicionais
+- Clean Architecture completa
+
+### Justificativa
+
+Microservices foram descartados por adicionarem complexidade operacional desnecessária para o momento atual do projeto. Uma API simples demais também foi descartada por não demonstrar bem conceitos de engenharia. A Clean Architecture simplificada foi escolhida por equilibrar aprendizado, organização e aplicabilidade prática.
