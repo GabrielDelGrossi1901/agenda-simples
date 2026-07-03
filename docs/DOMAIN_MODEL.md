@@ -76,10 +76,20 @@ Um agendamento deve conter informações como data, horário, serviço, cliente,
 - Um profissional não deve possuir dois agendamentos no mesmo horário.
 - Um serviço deve possuir uma duração estimada.
 
-## Pontos em Aberto
+## Decisões Iniciais
 
-- O cliente será global na plataforma ou vinculado a uma empresa?
-- Como será definida a disponibilidade dos profissionais?
-- Um serviço poderá ter preços diferentes por profissional?
-- Como serão tratados cancelamentos e reagendamentos?
-- Haverá confirmação automática ou manual do agendamento?
+- No MVP, o cliente será vinculado a uma empresa.
+- A disponibilidade dos profissionais será definida por horários de trabalho.
+- O preço pertence ao serviço, não ao profissional.
+- Cancelamentos serão tratados por status.
+- Reagendamentos serão tratados em versão futura.
+- Agendamentos serão confirmados automaticamente quando o horário estiver disponível.
+
+## Pontos para Evolução Futura
+
+- Cliente global na plataforma.
+- Preço de serviço por profissional.
+- Reagendamento completo.
+- Confirmação manual de agendamento.
+- Bloqueios de agenda, férias e feriados.
+- Notificações por e-mail ou WhatsApp.

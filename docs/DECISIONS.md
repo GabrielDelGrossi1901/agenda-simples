@@ -41,3 +41,17 @@ O projeto tem como objetivo servir como projeto vitrine e ambiente de aprendizad
 ### Justificativa
 
 Microservices foram descartados por adicionarem complexidade operacional desnecessária para o momento atual do projeto. Uma API simples demais também foi descartada por não demonstrar bem conceitos de engenharia. A Clean Architecture simplificada foi escolhida por equilibrar aprendizado, organização e aplicabilidade prática.
+
+## 2026-07-03 - Definição de multi-tenancy simples
+
+### Decisão
+
+Utilizar a entidade Empresa como unidade principal de separação de dados do sistema.
+
+### Motivo
+
+Como o Agenda Simples será uma plataforma SaaS, diferentes empresas poderão utilizar a mesma aplicação. Por isso, entidades como Serviço, Profissional, Cliente e Agendamento serão vinculadas a uma Empresa.
+
+### Justificativa
+
+Essa abordagem permite iniciar o projeto com uma estratégia simples de multi-tenancy, utilizando EmpresaId nas entidades principais. Isso evita complexidade prematura, mas mantém o modelo preparado para atender múltiplas empresas.
