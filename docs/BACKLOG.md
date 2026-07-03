@@ -6,28 +6,13 @@ Objetivo: estruturar o projeto antes da implementação.
 
 ### Tarefas
 
-- [ ] Definir visão do produto
-- [ ] Definir usuários principais e secundários
-- [ ] Criar estrutura inicial do repositório
-- [ ] Criar documentação base
-- [ ] Definir regras de uso da IA
-- [ ] Definir arquitetura inicial
-- [ ] Planejar Sprint 1
-
-## Sprint 1 - Primeira API
-
-Objetivo: criar a base técnica inicial da aplicação.
-
-### Tarefas previstas
-
-- [ ] Criar solution .NET
-- [ ] Criar projeto de API
-- [ ] Criar estrutura inicial de camadas
-- [ ] Configurar Swagger
-- [ ] Criar Health Check
-- [ ] Criar primeira entidade do domínio
-- [ ] Criar primeiro endpoint simples
-- [ ] Criar primeiro teste automatizado
+- [x] Definir visão do produto
+- [x] Definir usuários principais e secundários
+- [x] Criar estrutura inicial do repositório
+- [x] Criar documentação base
+- [x] Definir regras de uso da IA
+- [x] Definir arquitetura inicial
+- [x] Planejar Sprint 1
 
 ## Sprint 1 - Base Técnica e Primeira Entidade
 

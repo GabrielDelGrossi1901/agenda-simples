@@ -58,8 +58,8 @@ Antes de solicitar código, o desenvolvedor deve tentar entender o problema, pro
 
 ## Estado Atual
 
-Sprint 0 praticamente concluída.
+Sprint 0 concluída.
 
-A visão do produto, arquitetura inicial, modelo de domínio, regras de negócio e mapa de entidades foram documentados.
+A visão do produto, arquitetura inicial, modelo de domínio, regras de negócio, mapa de entidades, plano da Sprint 1 e regras de uso da IA foram documentados.
 
 A próxima etapa será iniciar a Sprint 1, com foco na criação da solution .NET, estrutura em camadas, API inicial, Health Check e primeira entidade do domínio: Empresa.
