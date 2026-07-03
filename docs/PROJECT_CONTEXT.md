@@ -58,8 +58,8 @@ Antes de solicitar código, o desenvolvedor deve tentar entender o problema, pro
 
 ## Estado Atual
 
-Sprint 0 iniciada.
+Sprint 0 praticamente concluída.
 
-Ainda não existe código de aplicação.
+A visão do produto, arquitetura inicial, modelo de domínio, regras de negócio e mapa de entidades foram documentados.
 
-A etapa atual é definir visão do produto, arquitetura inicial, backlog e regras de desenvolvimento.
+A próxima etapa será iniciar a Sprint 1, com foco na criação da solution .NET, estrutura em camadas, API inicial, Health Check e primeira entidade do domínio: Empresa.

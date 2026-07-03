@@ -28,3 +28,22 @@ Objetivo: criar a base técnica inicial da aplicação.
 - [ ] Criar primeira entidade do domínio
 - [ ] Criar primeiro endpoint simples
 - [ ] Criar primeiro teste automatizado
+
+## Sprint 1 - Base Técnica e Primeira Entidade
+
+Objetivo: criar a estrutura técnica inicial da aplicação e implementar a entidade Empresa.
+
+### Tarefas
+
+- [ ] Criar solution .NET
+- [ ] Criar projeto AgendaSimples.Api
+- [ ] Criar projeto AgendaSimples.Application
+- [ ] Criar projeto AgendaSimples.Domain
+- [ ] Criar projeto AgendaSimples.Infrastructure
+- [ ] Criar projeto AgendaSimples.UnitTests
+- [ ] Configurar referências entre projetos
+- [ ] Configurar Swagger
+- [ ] Criar Health Check
+- [ ] Criar entidade Empresa
+- [ ] Criar testes unitários da entidade Empresa
+- [ ] Atualizar documentação da sprint
